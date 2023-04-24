@@ -142,13 +142,14 @@ button {
   width: 226px;
 }
 
-.delete img {
+.delete {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
+  background: url("./remove.svg") center no-repeat;
 }
 
-.delete img:hover {
+.delete:hover {
   transform: rotateZ(0);
 }
 
